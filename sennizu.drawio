@@ -1,0 +1,108 @@
+<mxfile host="65bd71144e">
+    <diagram id="KadKrVG0HXzZqbIs5HA2" name="ページ1">
+        <mxGraphModel dx="1386" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Bリーグリアル監視アプリ" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="160" width="520" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="mainファイルを実行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="80" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="監視アプリを実行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="240" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="試合時間開始時刻を5分毎に検索し現在の時間と照合" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="320" width="360" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="待機" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="340" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="試合毎のファイル+監視アプリが生成" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="160" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="試合をリアルタイム監視" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="440" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="”特定条件”もしくは試合時間が”終了”になるかを1分毎に検索" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="520" width="360" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="”特定条件”の成立が確認" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="234" y="640" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="lineAPIを通じてlineに通知" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="234" y="720" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="アプリを停止" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="540" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0.483;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="413" y="120" as="sourcePoint"/>
+                        <mxPoint x="413" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0.483;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="414" y="203" as="sourcePoint"/>
+                        <mxPoint x="414.8800000000001" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0.483;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="414" y="683" as="sourcePoint"/>
+                        <mxPoint x="414.8800000000001" y="720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0.483;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="414" y="283" as="sourcePoint"/>
+                        <mxPoint x="414.8800000000001" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0.483;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="413" y="400" as="sourcePoint"/>
+                        <mxPoint x="413.8800000000001" y="437" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0.483;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="413" y="480" as="sourcePoint"/>
+                        <mxPoint x="413.8800000000001" y="517" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0.483;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="413" y="603" as="sourcePoint"/>
+                        <mxPoint x="413.8800000000001" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="360" as="sourcePoint"/>
+                        <mxPoint x="670" y="355" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="14" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="560" as="sourcePoint"/>
+                        <mxPoint x="650" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="endArrow=classic;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="11" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="230" y="740" as="sourcePoint"/>
+                        <mxPoint x="130" y="560" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="740"/>
+                            <mxPoint x="160" y="650"/>
+                            <mxPoint x="160" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
